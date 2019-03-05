@@ -1,6 +1,6 @@
 {
   "name": "ebisu-halflife-interval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate the half-life or interval of an Ebisu model",
   "main": "index.js",
   "scripts": {

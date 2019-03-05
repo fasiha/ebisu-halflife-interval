@@ -19,7 +19,7 @@ const defaultOptions = {
  * @throws when search failed to converge (should never happen, let me know if it does)
  * @param {number[]} model the output of `ebisu.updateModel` or `ebisu.defaultModel` or something like that
  * @param {number} probability number > 0 and < 1
- * @param {Oject} options see `minimize-golden-section-1d` documentation. Sane defaults are provided.
+ * @param {Object} options see `minimize-golden-section-1d` documentation. Sane defaults are provided.
  */
 function interval(model, probability = 0.5, options = {}) {
   let status = {};
